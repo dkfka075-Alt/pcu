@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-<audio src="audio/EmbraceableYou.mp3" controls loop></audio>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* 자식 페이지용 심플 스타일 */
+        body {
+            font-family: sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 10px;
+            background-color: #ffffff;
+        }
+        .bucket-list {
+            list-style: none;
+            padding: 0;
+        }
+        .bucket-list li {
+            margin-bottom: 8px;
+            border-bottom: 1px dotted #ccc; /* 구분선 */
+            padding-bottom: 5px;
+        }
+        .tag {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
 
-    </body>
+    <ul class="bucket-list">
+        <li><span class="tag">[여행]</span> 나 홀로 낯선 동네 1박 2일</li>
+        <li><span class="tag">[취미]</span> 필름 카메라 한 롤 인화하기</li>
+        <li><span class="tag">[목표]</span> 컴퓨터 분야 자격증 3개 취득하기</li>
+        <li><span class="tag">[독서]</span> 한 달에 책 30권 읽기</li>
+    </ul>
 
-
+</body>
 </html>
